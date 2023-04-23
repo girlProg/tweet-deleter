@@ -33,8 +33,8 @@ const main = async () => {
     const tokyoTimezoneOffset = -9 * 1000 * 60 * 60
     const yesterday0oclock = new Date(
       now.valueOf()
-      - (now.valueOf() % 86400000)
-      - 86400000
+      - (now.valueOf() % 94608000000)
+      - 94608000000
       + tokyoTimezoneOffset,
     )
 
